@@ -1,0 +1,1 @@
+"use strict";angular.module("feedbackSystem",["ui.router"]).config(["$stateProvider","$urlRouterProvider",function(e,t){e.state("home",{controller:"homeCtrl",url:"/",templateUrl:"./js/templates/homeView.html"}).state("storeTag",{controller:"storeTagCtrl",url:"/storeTag",templateUrl:"./js/templates/storeTag.html"}),t.otherwise("/")}]);
